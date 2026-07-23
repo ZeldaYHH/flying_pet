@@ -71,7 +71,7 @@ def scan_tracked_content() -> list[str]:
 def scan_commit_identities() -> list[str]:
     result = git(
         "log",
-        "--all",
+        "HEAD",
         "--format=%H%x00%ae%x00%ce",
         check=False,
     )
