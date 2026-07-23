@@ -12,7 +12,17 @@ venv/
 # Training outputs and saved models
 runs/
 MUJOCO_LOG.TXT
+events.out.tfevents.*
 
 # Editor settings
 .vscode/
 .idea/
+
+# Local credentials and machine-specific files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log

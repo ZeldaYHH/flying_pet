@@ -1,0 +1,4 @@
+#!/bin/sh
+set -eu
+
+exec python3 scripts/privacy_check.py --pre-push
