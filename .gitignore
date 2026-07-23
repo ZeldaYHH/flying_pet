@@ -11,6 +11,7 @@ venv/
 
 # Training outputs and saved models
 runs/
+MUJOCO_LOG.TXT
 
 # Editor settings
 .vscode/
